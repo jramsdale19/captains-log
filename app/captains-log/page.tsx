@@ -1,7 +1,6 @@
 // app/captains-log/page.tsx
 import React from 'react';
 import Post from '@/components/post.js';  // Adjust the import based on your directory structure
-import { timeStamp } from 'console';
 
 export default function CaptainsLogPage() {
   const posts = [
