@@ -8,8 +8,7 @@ export default function HomePage() {
         This is my personal website!
       </p>
       <p className="text-center">
-        It seems like everybody who has aura has their own shitty low ui blog that they make to keep them tethered 
-        to being a hacker so I thought I would as well.
+        Feel free to explore and learn more about me. I am using this as a way to stay sharp in my coding skills and to document my journey.
       </p>
     </div>
   );
