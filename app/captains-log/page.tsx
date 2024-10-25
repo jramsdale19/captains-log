@@ -1,6 +1,6 @@
 // app/captains-log/page.tsx
 import React from 'react';
-import Post from '@/components/Post';  // Adjust the import based on your directory structure
+import Post from '@/components/post';  // Adjust the import based on your directory structure
 
 export default function CaptainsLogPage() {
   const posts = [
@@ -9,16 +9,23 @@ export default function CaptainsLogPage() {
       timestamp: "September 30, 2024, 10:07 PM",
       body: "Finally implemented a crude blog post system for my website. Looking for a place for posting more developed thoughts, writings, and ideas.",
     },
-    // {
-    //   title: "Second Adventure",
-    //   timestamp: "October 1, 2024, 2:30 PM",
-    //   body: "Encountered strange weather patterns, but the journey continues. Spirits are high!",
-    // },
-    // {
-    //   title: "Reflections",
-    //   timestamp: "October 3, 2024, 6:45 PM",
-    //   body: "Looking back on the journey so far. Much learned, much to learn.",
-    // },
+    {
+      title: "Life Goals",
+      timestamp: "October 24, 2024, 8:09 PM",
+      body: `## My Journey Begins
+  
+  I have **always** had dreams, ambitions, and desires. However, because of this I have never formally laid out my life goals in a meaningful manner.
+  
+  Today I want to begin to outline my goals and get a clearer vision of my *life* and thus path forward.
+  
+  > As Cicero said, "If you have a garden and a library, you have everything you need."
+  
+  The first goal is to become wealthy. Not rich per se, but wealthy. I think my grandfather Big Honey is wealthy.
+  
+  The second goal is to start a company. I don't know quite when I decided this. Was it when I was young, making little popsicle-stick cotton-ball UT crafts and trying to sell them for a quarter?
+  
+  The third goal is to write a book. I have hundreds of worlds in my head and one has haunted my daydreams for years.`
+    },
   ];
 
   return (
