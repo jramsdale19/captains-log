@@ -14,19 +14,19 @@ const Post = ({ title, timestamp, body }) => {
       <div className="prose prose-gray max-w-none">
         <ReactMarkdown
           components={{
-            h2: ({node, ...props}) => (
+            h2: ({...props}) => (
               <h2 className="text-xl font-bold mt-6 mb-4" {...props} />
             ),
-            p: ({node, ...props}) => (
+            p: ({...props}) => (
               <p className="text-gray-800 mb-4 leading-relaxed" {...props} />
             ),
-            blockquote: ({node, ...props}) => (
+            blockquote: ({...props}) => (
               <blockquote className="border-l-4 border-gray-300 pl-4 my-4 italic text-gray-700" {...props} />
             ),
-            strong: ({node, ...props}) => (
+            strong: ({...props}) => (
               <strong className="font-bold" {...props} />
             ),
-            em: ({node, ...props}) => (
+            em: ({...props}) => (
               <em className="italic" {...props} />
             ),
           }}

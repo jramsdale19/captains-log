@@ -15,7 +15,7 @@ export default function CaptainsLogPage() {
       body: `
   I have always had dreams, ambitions, and desires. However, because of this I have never formally laid out my life goals in a meaningful manner.
   
-  Today I want to begin to outline my goals and get a clearer vision of my *life* and thus path forward.
+  Today I want to begin to outline my goals and get a clearer vision of my life and thus path forward.
 
   As Cicero said, 
   
@@ -31,7 +31,7 @@ export default function CaptainsLogPage() {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-center scroll-m-20 text-3xl font-semibold tracking-tight lg:text-5xl mb-8 mt-8">Captain's Log</h1>
+      <h1 className="text-center scroll-m-20 text-3xl font-semibold tracking-tight lg:text-5xl mb-8 mt-8">Captain&apos;s Log</h1>
 
       {/* Rendering posts with title, timestamp, and body */}
       <div className="max-w-2xl mx-auto">
