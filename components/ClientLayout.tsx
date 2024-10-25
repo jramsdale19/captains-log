@@ -7,7 +7,6 @@ import {
   MenubarItem,
   MenubarMenu,
   MenubarSeparator,
-  MenubarShortcut,
   MenubarTrigger,
 } from "@/components/ui/menubar"; // Adjust the import path as needed
 
@@ -34,7 +33,7 @@ const ClientLayout = ({ children }: { children: React.ReactNode }) => {
               </MenubarItem>
               <MenubarSeparator />
               <MenubarItem onSelect={() => handleNavigation('/captains-log')}>
-                Captain's Log
+                Captain&apos;s Log
               </MenubarItem>
               <MenubarSeparator />
               <MenubarItem onSelect={() => handleNavigation('/projects')}>
