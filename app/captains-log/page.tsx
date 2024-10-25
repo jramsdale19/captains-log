@@ -8,15 +8,15 @@ export default function CaptainsLogPage() {
       title: "Switching Provdiers",
       timestamp: "October 25, 2024, 3:48 PM",
       body: ` 
-      I have decided to start making the switch over from OpenAI to Anthropic. (I do hate having to spell Anthropic though...).
-      While I had been meaning to explore different models using SMDeal's prompt and code base, I had never really gotten around to it because I felt like I was in a place where the product was OK enough to try some GTM and gain traction. 
-      All I had really tried was playing around with open source models in sandboxes and wasn't overally impressed.
+  I have decided to start making the switch over from OpenAI to Anthropic. (I do hate having to spell Anthropic though...).
+  While I had been meaning to explore different models using SMDeal's prompt and code base, I had never really gotten around to it because I felt like I was in a place where the product was OK enough to try some GTM and gain traction. 
+  All I had really tried was playing around with open source models in sandboxes and wasn't overally impressed.
 
-      I was scrolling X and saw a post that peer pressured me enough to try out Anthropic. It compared OpenAI users as Imperial Japanese soldiers hiding out in caves in remote Pacific islands not knowing the war was over. 
-      So I loaded up some credits, tried out the Anthropic sandbox and realized that this model unlocked the human level conversation I was looking for. 
-      Pleasantly suprised, sort of feel like an idiot for not trying it sooner.
-      
-      It's one of those things where if everybody says it's good, it *most* likely is.`
+  I was scrolling X and saw a post that peer pressured me enough to try out Anthropic. It compared OpenAI users as Imperial Japanese soldiers hiding out in caves in remote Pacific islands not knowing the war was over. 
+  So I loaded up some credits, tried out the Anthropic sandbox and realized that this model unlocked the human level conversation I was looking for. 
+  Pleasantly suprised, sort of feel like an idiot for not trying it sooner.
+  
+  It's one of those things where if everybody says it's good, it *most* likely is.`
     },
 
     {
