@@ -5,6 +5,25 @@ import Post from '@/components/post.js';  // Adjust the import based on your dir
 export default function CaptainsLogPage() {
   const posts = [
     {
+      title: "Life in flux",
+      timestamp: "Nov 5th, 2024, 11:27 PM",
+      body: ` 
+  A truth Minerva once told me was that life is always changing. Stability is a false facade that you drape over fear. 
+  
+  My life is undergoing a lot of changes right now. It seems like the world is too.
+  
+  I was just promoted at work. I am very happy about it, I've been working very hard to take this next step. There's a lot of exciting stuff on the horizon here and this is really my closest route to making more money.
+  This has come with new challenges that I'll have to navigate. Longer work-related hours and possible complications with what I've been working on.
+  
+  Speaking of side projects, I've been finding a lot of joy in a B2C idea I have. It's called foodooku and according to my AI slogan it does: "Simplify your meal planning, recipe management, and grocery shopping with our all-in-one platform.
+  It's been a lot of fun to build and I'm looking forward to seeing where it takes me.
+  
+  Lastly, it is election night. While the votes are still getting counted it looks like Donald Trump is going to be president once more. 
+  While a lot has been said on the subject, my two cents is that this is a sad precedent for America.
+  
+  There is a lot in flux right now as there always is.`
+    },
+    {
       title: "Switching Provdiers",
       timestamp: "October 25, 2024, 3:48 PM",
       body: ` 
